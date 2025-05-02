@@ -34,7 +34,8 @@
 	}
 
 	is_valid_showing_failures_only = {
-		is_available_adult = yes
+		is_alive = yes
+		is_imprisoned = no
 		is_at_war = no
 	}
 
@@ -107,7 +108,8 @@ ch_convert_holding_to_city_decision = {
 	}
 
 	is_valid_showing_failures_only = {
-		is_available_adult = yes
+		is_alive = yes
+		is_imprisoned = no
 		is_at_war = no
 	}
 
@@ -180,7 +182,8 @@ ch_convert_holding_to_temple_decision = {
 	}
 
 	is_valid_showing_failures_only = {
-		is_available_adult = yes
+		is_alive = yes
+		is_imprisoned = no
 		is_at_war = no
 	}
 
@@ -249,7 +252,8 @@ ch_convert_holding_to_tribal_decision = {
 	}
 
 	is_valid_showing_failures_only = {
-		is_available_adult = yes
+		is_alive = yes
+		is_imprisoned = no
 		is_at_war = no
 	}
 
@@ -317,7 +321,8 @@ ch_convert_holding_to_nomad_decision = {
 	}
 
 	is_valid_showing_failures_only = {
-		is_available_adult = yes
+		is_alive = yes
+		is_imprisoned = no
 		is_at_war = no
 	}
 
