@@ -1,22 +1,16 @@
-﻿#	Example:
-#
-#	example_trigger = {
-#		is_country_type = default
-#		free_leader_slots > 0
-#	}
-#
-#
-#	In a script file:
-#
-#	trigger = {
-#		example_trigger = yes
-#	}
-#
-
-ch_barony_is_valid_for_castle_trigger = {
+﻿ch_barony_is_valid_for_castle_trigger = {
 	title_province = {
 		NOT = { has_holding_type = castle_holding }
 		has_ongoing_construction = no
+		OR = {
+			is_county_capital = no
+			barony.holder.top_liege = {
+				NOR = {
+					government_has_flag = government_is_theocracy
+					government_has_flag = government_is_republic
+				}
+			}
+		}
 	}
 	trigger_if = {
 		limit = {
@@ -32,6 +26,10 @@ ch_barony_is_valid_for_city_trigger = {
 	title_province = {
 		NOT = { has_holding_type = city_holding }
 		has_ongoing_construction = no
+		OR = {
+			is_county_capital = no
+			barony.holder.top_liege = { government_has_flag = government_is_republic }
+		}
 	}
 	trigger_if = {
 		limit = {
@@ -47,6 +45,47 @@ ch_barony_is_valid_for_temple_trigger = {
 	title_province = {
 		NOT = { has_holding_type = church_holding }
 		has_ongoing_construction = no
+		OR = {
+			is_county_capital = no
+			barony.holder.top_liege = { government_has_flag = government_is_theocracy }
+		}
+	}
+	trigger_if = {
+		limit = {
+			holder = $CHARACTER$
+		}
+	}
+	trigger_else = {
+		holder.primary_title.tier = tier_barony
+	}
+}
+
+ch_barony_is_valid_for_tribal_trigger = {
+	title_province = {
+		NOT = { has_holding_type = tribal_holding }
+		has_ongoing_construction = no
+		is_county_capital = yes
+		barony.holder.top_liege = { government_has_flag = government_is_tribal }
+	}
+	trigger_if = {
+		limit = {
+			holder = $CHARACTER$
+		}
+	}
+	trigger_else = {
+		holder.primary_title.tier = tier_barony
+	}
+}
+
+ch_barony_is_valid_for_nomad_trigger = {
+	title_province = {
+		NOR = {
+			has_holding_type = nomad_holding
+			has_holding_type = herder_holding
+		}
+		has_ongoing_construction = no
+		is_county_capital = yes
+		barony.holder.top_liege = { government_has_flag = government_is_nomadic }
 	}
 	trigger_if = {
 		limit = {

@@ -10,24 +10,33 @@
  CH_SELECT_HOLDING_NO_TITLES:0 "No available Holdings"
  CH_SELECT_HOLDING_TOOLTIP:0 "#T [Select_CString( DecisionViewWidgetCreateHolyOrder.HasValidBaronies, '$CH_SELECT_HOLDING_TITLE$', '$CH_SELECT_HOLDING_NO_TITLES$' )] #!"
  CH_SELECT_HOLDING_CONFIRM:0 "Select"
- 
+
  ch_convert_holding_to_castle_decision:0 "Convert Holding to Castle"
  ch_convert_holding_to_castle_decision_tooltip:0 "The existing holding(s) will be replaced with a [castle|E] holding"
- ch_convert_holding_to_castle_decision_desc:0 "#F Architects and engineers have been congregating within my realm as of late. Many are sought after as master builders, but to prove their skills, they want great projects to work on.#!"
+ ch_convert_holding_to_castle_decision_desc:0 "$game_concept_castle_holding_desc$"
  ch_convert_holding_to_castle_decision_confirm:0 "Convert Holding to Castle"
- # ch_convert_holding_to_castle_decision_effect_message:1 "Placeholder\n$EFFECT_LIST_BULLET$"
- I_HAVE_CH_ELIGBLE_BARONIES_TO_CASTLE_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [castle|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$Despite what the Select Holding window may tell you, you #bold can#! in fact select a [county_capital|E]\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"
- 
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_CASTLE_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [castle|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"
+
  ch_convert_holding_to_city_decision:0 "Convert Holding to City"
  ch_convert_holding_to_city_decision_tooltip:0 "The existing holding(s) will be replaced with a [city|E] holding"
- ch_convert_holding_to_city_decision_desc:0 "#F Architects and engineers have been congregating within my realm as of late. Many are sought after as master builders, but to prove their skills, they want great projects to work on.#!"
+ ch_convert_holding_to_city_decision_desc:0 "$game_concept_city_holding_desc$"
  ch_convert_holding_to_city_decision_confirm:0 "Convert Holding to City"
- # ch_convert_holding_to_city_decision_effect_message:1 "Placeholder\n$EFFECT_LIST_BULLET$"
- I_HAVE_CH_ELIGBLE_BARONIES_TO_CITY_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [city|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$Despite what the Select Holding window may tell you, you #bold can#! in fact select a [county_capital|E]\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"
- 
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_CITY_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [city|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"
+
  ch_convert_holding_to_temple_decision:0 "Convert Holding to Temple"
  ch_convert_holding_to_temple_decision_tooltip:0 "The existing holding(s) will be replaced with a [temple|E] holding"
- ch_convert_holding_to_temple_decision_desc:0 "#F Architects and engineers have been congregating within my realm as of late. Many are sought after as master builders, but to prove their skills, they want great projects to work on.#!"
+ ch_convert_holding_to_temple_decision_desc:0 "$game_concept_temple_holding_desc$"
  ch_convert_holding_to_temple_decision_confirm:0 "Convert Holding to Temple"
- # ch_convert_holding_to_temple_decision_effect_message:1 "Placeholder\n$EFFECT_LIST_BULLET$"
- I_HAVE_CH_ELIGBLE_BARONIES_TO_TEMPLE_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [temple|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$Despite what the Select Holding window may tell you, you #bold can#! in fact select a [county_capital|E]"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_TEMPLE_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [temple|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible"
+
+ ch_convert_holding_to_tribal_decision:0 "Convert Holding to Tribe"
+ ch_convert_holding_to_tribal_decision_tooltip:0 "The existing holding(s) will be replaced with a [tribe|E] holding"
+ ch_convert_holding_to_tribal_decision_desc:0 "$game_concept_tribal_holding_desc$"
+ ch_convert_holding_to_tribal_decision_confirm:0 "Convert Holding to Tribal"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_TRIBAL_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [tribe|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"
+
+ ch_convert_holding_to_nomad_decision:0 "Convert Holding to Nomadic Settlement"
+ ch_convert_holding_to_nomad_decision_tooltip:0 "The existing holding(s) will be replaced with a [nomadic_holding|E] holding"
+ ch_convert_holding_to_nomad_decision_desc:0 "$game_concept_nomadic_holding_desc$"
+ ch_convert_holding_to_nomad_decision_confirm:0 "Convert Holding to Nomadic Settlement"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_NOMAD_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [nomadic_holding|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"
