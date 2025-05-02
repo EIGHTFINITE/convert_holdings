@@ -10,8 +10,9 @@ ch_convert_holding_to_castle_decision = {
 	ai_check_interval = 0
 
 	is_shown = {
-		NOT = {
-			has_government = tribal_government
+		NOR = {
+			has_government = nomad_government
+			has_government = herder_government
 		}
 		is_landed = yes
 	}
@@ -87,8 +88,10 @@ ch_convert_holding_to_city_decision = {
 	ai_check_interval = 0
 
 	is_shown = {
-		NOT = {
+		NOR = {
 			has_government = tribal_government
+			has_government = nomad_government
+			has_government = herder_government
 		}
 		is_landed = yes
 	}
@@ -164,8 +167,10 @@ ch_convert_holding_to_temple_decision = {
 	ai_check_interval = 0
 
 	is_shown = {
-		NOT = {
+		NOR = {
 			has_government = tribal_government
+			has_government = nomad_government
+			has_government = herder_government
 		}
 		is_landed = yes
 	}
