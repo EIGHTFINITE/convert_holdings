@@ -1,6 +1,6 @@
 ﻿ch_convert_holding_to_castle_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+		reference = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
 	}
 
 	ai_check_interval = 0
@@ -74,7 +74,7 @@
 
 ch_convert_holding_to_city_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+		reference = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
 	}
 
 	ai_check_interval = 0
@@ -148,7 +148,7 @@ ch_convert_holding_to_city_decision = {
 
 ch_convert_holding_to_temple_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+		reference = "gfx/interface/illustrations/holding_types/temple_orthodox.dds"
 	}
 
 	ai_check_interval = 0
@@ -222,7 +222,7 @@ ch_convert_holding_to_temple_decision = {
 
 ch_convert_holding_to_tribal_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+		reference = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
 	}
 
 	ai_check_interval = 0
@@ -291,7 +291,7 @@ ch_convert_holding_to_tribal_decision = {
 
 ch_convert_holding_to_nomad_decision = {
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+		reference = "gfx/interface/illustrations/holding_types/mpo_nomad_holding.dds"
 	}
 
 	ai_check_interval = 0
