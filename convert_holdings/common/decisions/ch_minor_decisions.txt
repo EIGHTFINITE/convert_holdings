@@ -3,7 +3,9 @@
 #ch_convert_holding_to_temple_decision
 
 ch_convert_holding_to_castle_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
 
 	ai_check_interval = 0
 
@@ -78,7 +80,9 @@ ch_convert_holding_to_castle_decision = {
 }
 
 ch_convert_holding_to_city_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
 
 	ai_check_interval = 0
 
@@ -153,7 +157,9 @@ ch_convert_holding_to_city_decision = {
 }
 
 ch_convert_holding_to_temple_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
 
 	ai_check_interval = 0
 
