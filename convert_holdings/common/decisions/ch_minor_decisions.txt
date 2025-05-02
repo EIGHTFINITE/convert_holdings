@@ -55,7 +55,7 @@ ch_convert_holding_to_castle_decision = {
 	}
 
 	cost = {
-		gold = main_building_tier_1_cost
+		gold = 500
 	}
 
 	effect = {
@@ -130,7 +130,7 @@ ch_convert_holding_to_city_decision = {
 	}
 
 	cost = {
-		gold = main_building_tier_1_cost
+		gold = 500
 	}
 
 	effect = {
@@ -205,7 +205,7 @@ ch_convert_holding_to_temple_decision = {
 	}
 
 	cost = {
-		gold = main_building_tier_1_cost
+		gold = 500
 	}
 
 	effect = {
