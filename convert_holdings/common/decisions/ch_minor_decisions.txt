@@ -8,8 +8,15 @@
 	is_shown = {
 		NOR = {
 			has_government = tribal_government
-			has_government = nomad_government
 			has_government = herder_government
+		}
+		OR = {
+			NOT = { has_government = nomad_government }
+			any_held_county = {
+				any_in_de_jure_hierarchy = {
+					ch_barony_is_valid_for_castle_trigger = { CHARACTER = root }
+				}
+			}
 		}
 		is_landed = yes
 	}
