@@ -370,33 +370,43 @@ ch_convert_holding_to_nomad_decision = {
 			county = {
 				if = {
 					limit = {
-						culture != root.domicile.domicile_culture
+						exists = prev
 					}
-					set_county_culture = root.domicile.domicile_culture
+					if = {
+						limit = {
+							culture != root.domicile.domicile_culture
+						}
+						set_county_culture = root.domicile.domicile_culture
+					}
+					if = {
+						limit = {
+							faith != root.domicile.domicile_faith
+						}
+						set_county_faith = root.domicile.domicile_faith
+					}
+					if = {
+						limit = {
+							prev = { NOT = { has_holding_type = herder_holding } }
+						}
+						root = {
+							add_gold = {
+								value = minor_gold_value
+								add = prev.development_level
+							}
+						}
+						if = {
+							limit = {
+								development_level >= 1
+							}
+							change_development_progress_with_overflow = {
+								value = development_level
+								multiply = 10
+								multiply = -1
+							}
+						}
+						change_county_fertility = medium_county_fertility_level_gain
+					}
 				}
-				if = {
-					limit = {
-						faith != root.domicile.domicile_faith
-					}
-					set_county_faith = root.domicile.domicile_faith
-				}
-				root = {
-					add_gold = {
-						value = minor_gold_value
-						add = prev.development_level
-					}
-				}
-				if = {
-					limit = {
-						development_level >= 1
-					}
-					change_development_progress_with_overflow = {
-						value = development_level
-						multiply = 10
-						multiply = -1
-					}
-				}
-				change_county_fertility = medium_county_fertility_level_gain
 				every_county_province = {
 					limit = {
 						has_holding = yes
