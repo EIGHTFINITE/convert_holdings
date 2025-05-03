@@ -388,12 +388,6 @@ ch_convert_holding_to_nomad_decision = {
 						limit = {
 							prev = { NOT = { has_holding_type = herder_holding } }
 						}
-						root = {
-							add_gold = {
-								value = minor_gold_value
-								add = prev.development_level
-							}
-						}
 						if = {
 							limit = {
 								development_level >= 1
@@ -405,6 +399,12 @@ ch_convert_holding_to_nomad_decision = {
 							}
 						}
 						change_county_fertility = medium_county_fertility_level_gain
+						root = {
+							add_gold = {
+								value = minor_gold_value
+								add = prev.development_level
+							}
+						}
 					}
 				}
 				every_county_province = {
