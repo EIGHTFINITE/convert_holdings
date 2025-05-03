@@ -380,6 +380,23 @@ ch_convert_holding_to_nomad_decision = {
 					}
 					set_county_faith = root.domicile.domicile_faith
 				}
+				root = {
+					add_gold = {
+						value = minor_gold_value
+						add = prev.development_level
+					}
+				}
+				if = {
+					limit = {
+						development_level >= 1
+					}
+					change_development_progress_with_overflow = {
+						value = development_level
+						multiply = 10
+						multiply = -1
+					}
+				}
+				change_county_fertility = medium_county_fertility_level_gain
 				every_county_province = {
 					limit = {
 						has_holding = yes
@@ -391,6 +408,65 @@ ch_convert_holding_to_nomad_decision = {
 						}
 					}
 					remove_holding = yes
+				}
+			}
+			if = {
+				limit = {
+					has_university_building_trigger = yes
+				}
+				if = {
+					limit = {
+						has_building_or_higher = generic_university
+					}
+					remove_building = generic_university
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = al_azhar_university
+					}
+					remove_building = al_azhar_university
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = sankore_university
+					}
+					remove_building = sankore_university
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = siena_university
+					}
+					remove_building = siena_university
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = nalanda_university
+					}
+					remove_building = nalanda_university
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = house_of_wisdom_01
+					}
+					remove_building = house_of_wisdom_01
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = al_qarawiyyin_university_01
+					}
+					remove_building = al_qarawiyyin_university_01
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = somapura_university_01
+					}
+					remove_building = somapura_university_01
+				}
+				else_if = {
+					limit = {
+						has_building_or_higher = cluny_abbey_01
+					}
+					remove_building = cluny_abbey_01
 				}
 			}
 		}
