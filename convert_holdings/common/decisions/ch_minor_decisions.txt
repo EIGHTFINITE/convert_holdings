@@ -284,6 +284,20 @@ ch_convert_holding_to_tribal_decision = {
 	effect = {
 		scope:barony.title_province = {
 			set_holding_type = tribal_holding
+			county = {
+				every_county_province = {
+					limit = {
+						has_holding = yes
+						is_county_capital = no
+						OR = {
+							has_holding_type = tribal_holding
+							has_holding_type = nomad_holding
+							has_holding_type = herder_holding
+						}
+					}
+					remove_holding = yes
+				}
+			}
 		}
 	}
 	
@@ -356,6 +370,18 @@ ch_convert_holding_to_nomad_decision = {
 			county = {
 				set_county_culture = root.domicile.domicile_culture
 				set_county_faith = root.domicile.domicile_faith
+				every_county_province = {
+					limit = {
+						has_holding = yes
+						is_county_capital = no
+						OR = {
+							has_holding_type = tribal_holding
+							has_holding_type = nomad_holding
+							has_holding_type = herder_holding
+						}
+					}
+					remove_holding = yes
+				}
 			}
 		}
 	}
