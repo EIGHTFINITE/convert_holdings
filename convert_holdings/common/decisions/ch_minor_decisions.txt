@@ -368,8 +368,18 @@ ch_convert_holding_to_nomad_decision = {
 		scope:barony.title_province = {
 			set_holding_type = nomad_holding
 			county = {
-				set_county_culture = root.domicile.domicile_culture
-				set_county_faith = root.domicile.domicile_faith
+				if = {
+					limit = {
+						culture != root.domicile.domicile_culture
+					}
+					set_county_culture = root.domicile.domicile_culture
+				}
+				if = {
+					limit = {
+						faith != root.domicile.domicile_faith
+					}
+					set_county_faith = root.domicile.domicile_faith
+				}
 				every_county_province = {
 					limit = {
 						has_holding = yes
