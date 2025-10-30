@@ -40,5 +40,3 @@
  ch_convert_holding_to_nomad_decision_desc:0 "$game_concept_nomadic_holding_desc$"
  ch_convert_holding_to_nomad_decision_confirm:0 "Преобразовать держание в кочевое поселение"
  I_HAVE_CH_ELIGBLE_BARONIES_TO_NOMAD_COUNTY:1 "У вас есть [barony|E] с [holding|E], которое можно преобразовать в [nomadic_holding|E]\n$EFFECT_LIST_BULLET$Подходят только держания в тех [counties|E], где вы лично являетесь [holder|E]\n$EFFECT_LIST_BULLET$Держания с активным строительством #bold не#! подходят\n$EFFECT_LIST_BULLET$Если вы преобразуете [temple|E], возможно, придётся подождать, пока ваш [realm_priest|E] автоматически освободит это [holding|E]"
-
-

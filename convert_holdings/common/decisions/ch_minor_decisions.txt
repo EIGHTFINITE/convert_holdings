@@ -9,6 +9,7 @@
 		NOR = {
 			has_government = tribal_government
 			has_government = herder_government
+			has_government = wanua_government
 		}
 		OR = {
 			NOT = { has_government = nomad_government }
@@ -91,6 +92,7 @@ ch_convert_holding_to_city_decision = {
 			has_government = tribal_government
 			has_government = nomad_government
 			has_government = herder_government
+			has_government = wanua_government
 		}
 		is_landed = yes
 	}
@@ -165,6 +167,7 @@ ch_convert_holding_to_temple_decision = {
 			has_government = tribal_government
 			has_government = nomad_government
 			has_government = herder_government
+			has_government = wanua_government
 		}
 		is_landed = yes
 	}
@@ -235,7 +238,10 @@ ch_convert_holding_to_tribal_decision = {
 	ai_check_interval = 0
 
 	is_shown = {
-		has_government = tribal_government
+		OR = {
+			has_government = tribal_government
+			has_government = wanua_government
+		}
 		is_landed = yes
 	}
 
