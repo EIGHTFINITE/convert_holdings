@@ -40,3 +40,9 @@
  ch_convert_holding_to_nomad_decision_desc:0 "$game_concept_nomadic_holding_desc$"
  ch_convert_holding_to_nomad_decision_confirm:0 "Convert Holding to Nomadic Settlement"
  I_HAVE_CH_ELIGBLE_BARONIES_TO_NOMAD_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [nomadic_holding|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"
+
+ ch_convert_holding_to_temple_citadel_decision:0 "Convert Holding to Temple Citadel"
+ ch_convert_holding_to_temple_citadel_decision_tooltip:0 "The existing holding(s) will be replaced with a [temple_citadel|E] holding"
+ ch_convert_holding_to_temple_citadel_decision_desc:0 "$game_concept_temple_citadel_holding_desc$"
+ ch_convert_holding_to_temple_citadel_decision_confirm:0 "Convert Holding to Temple Citadel"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_TEMPLE_CITADEL_COUNTY:1 "You have a [barony|E] with a [holding|E] that can be converted to [temple_citadel|E]\n$EFFECT_LIST_BULLET$Only holdings in the [counties|E] you personally are the [holder|E] of are eligible\n$EFFECT_LIST_BULLET$Holdings with active constructions are #bold not#! eligible\n$EFFECT_LIST_BULLET$If you convert a [temple|E], you may have to wait until your [realm_priest|E] relinquishes the [holding|E] automatically"

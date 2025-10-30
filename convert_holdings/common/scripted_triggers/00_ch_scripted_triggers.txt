@@ -107,3 +107,19 @@ ch_barony_is_valid_for_nomad_trigger = {
 		holder.primary_title.tier = tier_barony
 	}
 }
+
+ch_barony_is_valid_for_temple_citadel_trigger = {
+	title_province = {
+		NOT = { has_holding_type = temple_citadel_holding }
+		has_ongoing_construction = no
+		barony.holder.top_liege = { government_has_flag = government_is_mandala }
+	}
+	trigger_if = {
+		limit = {
+			holder = $CHARACTER$
+		}
+	}
+	trigger_else = {
+		holder.primary_title.tier = tier_barony
+	}
+}
