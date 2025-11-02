@@ -12,6 +12,7 @@
 				OR = {
 					has_holding_type = city_holding
 					has_holding_type = church_holding
+					has_holding_type = temple_citadel_holding
 					AND = {
 						has_holding_type = tribal_holding
 						barony.holder.top_liege = { government_has_flag = government_is_nomadic }
