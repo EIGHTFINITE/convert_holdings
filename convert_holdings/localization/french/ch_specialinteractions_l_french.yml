@@ -1,0 +1,42 @@
+﻿l_french:
+ NOT_I_HAVE_CH_BARONY_SELECTED:1 "Vous n'avez #bold pas#! sélectionné de Baronnie"
+ CH_CONVERT_HOLDING_DECISION_NAME_LABEL:0 "Nom :"
+ CH_CONVERT_HOLDING_DECISION_CAPITAL_LABEL:0 "Domaine :"
+ REVOKE_CH_CONVERT_HOLDING_DECISION_BARONY_LABEL:0 "Comté :"
+ CH_CONVERT_HOLDING_DECISION_CHANGE_CAPITAL:1 "Changer de Domaine"
+ CH_CONVERT_HOLDING_DECISION_SELECT_CAPITAL:1 "Sélectionner un Domaine"
+
+ CH_SELECT_HOLDING_TITLE:1 "Sélectionner un Domaine"
+ CH_SELECT_HOLDING_NO_TITLES:0 "Aucun Domaine disponible"
+ CH_SELECT_HOLDING_TOOLTIP:0 "#T [Select_CString( DecisionViewWidgetCreateHolyOrder.HasValidBaronies, '$CH_SELECT_HOLDING_TITLE$', '$CH_SELECT_HOLDING_NO_TITLES$' )] #!"
+ CH_SELECT_HOLDING_CONFIRM:0 "Sélectionner"
+
+ ch_convert_holding_to_castle_decision:0 "Convertir le Domaine en Château"
+ ch_convert_holding_to_castle_decision_tooltip:0 "Le(s) domaine(s) existant(s) sera(ont) remplacé(s) par un domaine de type [château|E]"
+ ch_convert_holding_to_castle_decision_desc:0 "$game_concept_castle_holding_desc$"
+ ch_convert_holding_to_castle_decision_confirm:0 "Convertir le Domaine en Château"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_CASTLE_COUNTY:1 "Vous avez une [baronnie|E] avec un [domaine|E] qui peut être converti en [château|E]\n$EFFECT_LIST_BULLET$Seuls les domaines dans les [comtés|E] dont vous êtes personnellement le [titulaire|E] sont éligibles\n$EFFECT_LIST_BULLET$Les domaines avec des constructions en cours ne sont #bold pas#! éligibles\n$EFFECT_LIST_BULLET$Si vous convertissez un [temple|E], vous devrez peut-être attendre que votre [prêtre_du_royaume|E] abandonne automatiquement le [domaine|E]"
+
+ ch_convert_holding_to_city_decision:0 "Convertir le Domaine en Cité"
+ ch_convert_holding_to_city_decision_tooltip:0 "Le(s) domaine(s) existant(s) sera(ont) remplacé(s) par un domaine de type [cité|E]"
+ ch_convert_holding_to_city_decision_desc:0 "$game_concept_city_holding_desc$"
+ ch_convert_holding_to_city_decision_confirm:0 "Convertir le Domaine en Cité"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_CITY_COUNTY:1 "Vous avez une [baronnie|E] avec un [domaine|E] qui peut être converti en [cité|E]\n$EFFECT_LIST_BULLET$Seuls les domaines dans les [comtés|E] dont vous êtes personnellement le [titulaire|E] sont éligibles\n$EFFECT_LIST_BULLET$Les domaines avec des constructions en cours ne sont #bold pas#! éligibles\n$EFFECT_LIST_BULLET$Si vous convertissez un [temple|E], vous devrez peut-être attendre que votre [prêtre_du_royaume|E] abandonne automatiquement le [domaine|E]"
+
+ ch_convert_holding_to_temple_decision:0 "Convertir le Domaine en Temple"
+ ch_convert_holding_to_temple_decision_tooltip:0 "Le(s) domaine(s) existant(s) sera(ont) remplacé(s) par un domaine de type [temple|E]"
+ ch_convert_holding_to_temple_decision_desc:0 "$game_concept_temple_holding_desc$"
+ ch_convert_holding_to_temple_decision_confirm:0 "Convertir le Domaine en Temple"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_TEMPLE_COUNTY:1 "Vous avez une [baronnie|E] avec un [domaine|E] qui peut être converti en [temple|E]\n$EFFECT_LIST_BULLET$Seuls les domaines dans les [comtés|E] dont vous êtes personnellement le [titulaire|E] sont éligibles\n$EFFECT_LIST_BULLET$Les domaines avec des constructions en cours ne sont #bold pas#! éligibles"
+
+ ch_convert_holding_to_tribal_decision:0 "Convertir le Domaine en Tribu"
+ ch_convert_holding_to_tribal_decision_tooltip:0 "Le(s) domaine(s) existant(s) sera(ont) remplacé(s) par un domaine de type [tribu|E]"
+ ch_convert_holding_to_tribal_decision_desc:0 "$game_concept_tribal_holding_desc$"
+ ch_convert_holding_to_tribal_decision_confirm:0 "Convertir le Domaine en Tribu"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_TRIBAL_COUNTY:1 "Vous avez une [baronnie|E] avec un [domaine|E] qui peut être converti en [tribu|E]\n$EFFECT_LIST_BULLET$Seuls les domaines dans les [comtés|E] dont vous êtes personnellement le [titulaire|E] sont éligibles\n$EFFECT_LIST_BULLET$Les domaines avec des constructions en cours ne sont #bold pas#! éligibles\n$EFFECT_LIST_BULLET$Si vous convertissez un [temple|E], vous devrez peut-être attendre que votre [prêtre_du_royaume|E] abandonne automatiquement le [domaine|E]"
+
+ ch_convert_holding_to_nomad_decision:0 "Convertir le Domaine en Campement Nomade"
+ ch_convert_holding_to_nomad_decision_tooltip:0 "Le(s) domaine(s) existant(s) sera(ont) remplacé(s) par un domaine de type [campement_nomade|E]"
+ ch_convert_holding_to_nomad_decision_desc:0 "$game_concept_nomadic_holding_desc$"
+ ch_convert_holding_to_nomad_decision_confirm:0 "Convertir le Domaine en Campement Nomade"
+ I_HAVE_CH_ELIGBLE_BARONIES_TO_NOMAD_COUNTY:1 "Vous avez une [baronnie|E] avec un [domaine|E] qui peut être converti en [campement_nomade|E]\n$EFFECT_LIST_BULLET$Seuls les domaines dans les [comtés|E] dont vous êtes personnellement le [titulaire|E] sont éligibles\n$EFFECT_LIST_BULLET$Les domaines avec des constructions en cours ne sont #bold pas#! éligibles\n$EFFECT_LIST_BULLET$Si vous convertissez un [temple|E], vous devrez peut-être attendre que votre [prêtre_du_royaume|E] abandonne automatiquement le [domaine|E]"
