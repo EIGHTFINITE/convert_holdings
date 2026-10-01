@@ -27,7 +27,7 @@
 		gui = decision_view_widget_ch_convert_holding
 		# Some widgets require a custom controller (see below). Default: default
 		controller = create_holy_order
-		barony_valid = {
+		title_valid = {
 			trigger_if = {
 				limit = { exists = this }
 				ch_barony_is_valid_for_castle_trigger = { CHARACTER = scope:ruler }
@@ -102,7 +102,7 @@ ch_convert_holding_to_city_decision = {
 		gui = decision_view_widget_ch_convert_holding
 		# Some widgets require a custom controller (see below). Default: default
 		controller = create_holy_order
-		barony_valid = {
+		title_valid = {
 			trigger_if = {
 				limit = { exists = this }
 				ch_barony_is_valid_for_city_trigger = { CHARACTER = scope:ruler }
@@ -178,7 +178,7 @@ ch_convert_holding_to_temple_decision = {
 		gui = decision_view_widget_ch_convert_holding
 		# Some widgets require a custom controller (see below). Default: default
 		controller = create_holy_order
-		barony_valid = {
+		title_valid = {
 			trigger_if = {
 				limit = { exists = this }
 				ch_barony_is_valid_for_temple_trigger = { CHARACTER = scope:ruler }
@@ -251,7 +251,7 @@ ch_convert_holding_to_tribal_decision = {
 		gui = decision_view_widget_ch_convert_holding
 		# Some widgets require a custom controller (see below). Default: default
 		controller = create_holy_order
-		barony_valid = {
+		title_valid = {
 			trigger_if = {
 				limit = { exists = this }
 				ch_barony_is_valid_for_tribal_trigger = { CHARACTER = scope:ruler }
@@ -334,7 +334,7 @@ ch_convert_holding_to_nomad_decision = {
 		gui = decision_view_widget_ch_convert_holding
 		# Some widgets require a custom controller (see below). Default: default
 		controller = create_holy_order
-		barony_valid = {
+		title_valid = {
 			trigger_if = {
 				limit = { exists = this }
 				ch_barony_is_valid_for_nomad_trigger = { CHARACTER = scope:ruler }
@@ -515,7 +515,7 @@ ch_convert_holding_to_temple_citadel_decision = {
 		gui = decision_view_widget_ch_convert_holding
 		# Some widgets require a custom controller (see below). Default: default
 		controller = create_holy_order
-		barony_valid = {
+		title_valid = {
 			trigger_if = {
 				limit = { exists = this }
 				ch_barony_is_valid_for_temple_citadel_trigger = { CHARACTER = scope:ruler }
