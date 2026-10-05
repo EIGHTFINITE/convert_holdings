@@ -57,6 +57,7 @@ ch_barony_is_valid_for_temple_trigger = {
 		OR = {
 			is_county_capital = no
 			barony.holder.top_liege = { government_has_flag = government_is_theocracy }
+			barony.holder.top_liege = { government_has_flag = government_is_ecclesiastical }
 		}
 	}
 	trigger_if = {
